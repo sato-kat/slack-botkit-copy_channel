@@ -2,7 +2,7 @@
 if (!process.env.token| !process.env.usertoken) {
     console.log('Error: Specify token in environment');
     process.exit(1);
-
+}
 var Botkit = require('./lib/Botkit.js');
 var os = require('os');
 
